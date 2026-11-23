@@ -214,7 +214,6 @@ ol {
   font-weight: 600;
   text-align: right;
   position: relative;
-  
 }
 #grow h2::after {
   content: "";
@@ -226,7 +225,6 @@ ol {
   bottom: -10px;
   right: 0;
 }
-
 
 .grow-card {
   text-align: center;
@@ -242,7 +240,7 @@ ol {
   color: #ff9800;
   font-size: 36px;
   font-weight: 600;
-    line-height: 54px;
+  line-height: 54px;
 }
 
 .grow-card p {
@@ -250,4 +248,90 @@ ol {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+}
+
+/* FAQ Section Start */
+
+#faq {
+  background: #f9f3e9;
+  padding-top: 124px;
+}
+
+.faq_title {
+  font-size: 48px;
+  font-weight: 500;
+  color: #414141;
+  position: relative;
+  margin-bottom: 50px !important;
+  line-height: 60px;
+}
+
+.faq_title::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 6px;
+  background: #f9a51a;
+  left: 0;
+  bottom: -16px;
+  border-radius: 10px;
+}
+
+#faq .faq_round {
+  background: #fff;
+  border: none;
+  border-radius: 10px !important;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+#faq .accordion-button {
+  padding: 26px;
+  font-size: 14px;
+  color: #999;
+  background: #fff;
+  box-shadow: none;
+  border-radius: 10px !important;
+  transition: all linear 0.3s;
+}
+
+#faq .accordion-body {
+  padding: 12px 17px 28px;
+  font-size: 13px;
+  color: #999;
+}
+
+/* FAQ Section End */
+
+/* Lead section  */
+#lead {
+  padding: 150px 0;
+}
+#lead .container {
+  background: #f9f3e9;
+  border-radius: 20px;
+  padding: 53px 0;
+}
+form{
+ 
+
+}
+form input{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+   display:block;
+  background: transparent;
+  width: 514px;
+
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 36px;
+  
+}
+
+.lead_wrapper{
+  display: flex;
+
 }
